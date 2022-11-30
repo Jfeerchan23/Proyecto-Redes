@@ -1,114 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Proyecto Redes</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Portfolio - Sailor Bootstrap Template</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Sailor - v4.9.1
   * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo me-auto">
+          <a href="index.html"><img src="assets/img/UADY_logo.svg" /></a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center">
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+              <a href="comunicacion.html">Seguridad en la comunicación</a>
+            </li>
+            <li><a href="web.html" class="active">Seguridad en la Web</a></li>
+            <li><a href="socket.html">Aplicaciones con sockets</a></li>
+            <li><a href="cosas.html">Internet de las Cosas</a></li>
 
-      <h1 class="logo me-auto"><a href="index.html"><img src="/assets/img/UADY_logo.svg"></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            <li><a href="creditos.html">Créditos</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="comunicacion.html" >Seguridad en la comunicación</a></li>
-          <li><a href="web.html" class="active">Seguridad en la Web</a></li>
-          <li><a href="socket.html">Aplicaciones con sockets</a></li>
-          <li><a href="cosas.html">Internet de las Cosas</a></li>
-
-          <li><a href="creditos.html">Créditos</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <main id="main">
-
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Seguridad en la Web</h2>
+    <main id="main">
+      <!-- ======= Breadcrumbs ======= -->
+      <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Seguridad en la Web</h2>
+          </div>
+        </div>
+      </section>
+      <!-- End Breadcrumbs -->
+      <div class="contenedor">
+        <h3>¿Qué es la Seguridad en la Web?</h3>
+        <p>
+          ¡Internet es un sitio peligroso! Con mucha frecuencia escuchamos sobre
+          sitios web que dejan de estar disponibles debido a ataques de
+          denegación de servicio, o presentan información modificada (y con
+          frecuencia dañada) en sus páginas de inicio. En otros casos de alto
+          nivel, millones de contraseñas, direcciones de correo electrónico y
+          detalles de tarjetas de crédito han sido filtrados al dominio público,
+          exponiendo a los usuarios del sitio web tanto a bochorno personal como
+          a riesgo finaciero.
+        </p>
+        <div class="imagen">
+          <img src="./assets/img/llave.gif" />
         </div>
 
+        <p>
+          El propósito de la seguridad web es prevenir ataques de esta (o de
+          cualquier otra) clase. Mas formalmente, la seguridad es la
+          acción/práctica de proteger sitios web del acceso, uso, modificación,
+          destrucción o interrupción, no autorizados.
+        </p>
+        <div class="imagen">
+          <img src="./assets/img/mundo.gif" />
+        </div>
+        <p>
+          La seguridad de sitios web eficaz requiere de esfuerzos de diseño a lo
+          largo de la totalidad del sitio web: en tu aplicación web, en la
+          configuración del servidor web, en tus políticas para crear y renovar
+          contraseñas, y en el código del lado cliente. Al mismo tiempo que todo
+          esto suena muy inquietante, la buena noticia es que si estás usando un
+          framework web de lado servidor, es casi seguro que habilitará por
+          defecto mecanismos de defensa robustos y bien pensados contra gran
+          cantidad de los ataques más comunes. Otros ataques pueden mitigarse
+          por medio de la configuración de tu servidor web, por ejemplo
+          habilitando HTTPS. Finalmente, hay herramientas de escaneado de
+          vulnerabilidades disponibles públicamente que pueden ayudarte a
+          averiguar si has cometido algún error obvio.
+        </p>
+        
       </div>
-    </section><!-- End Breadcrumbs -->
-    <div class="contenedor">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis tellus nec gravida faucibus. Nullam rutrum diam a blandit lacinia. Aliquam auctor, mauris id dictum interdum, eros ante commodo diam, in ultrices erat justo et ligula. Nulla facilisi. Donec commodo lorem sed posuere tristique. Maecenas sit amet lacinia nisi, nec posuere turpis. Nulla volutpat vel enim ac dictum. Phasellus fringilla, tellus et maximus finibus, nunc ipsum egestas dui, id ornare odio est a ante. Fusce laoreet sit amet sapien in posuere. In hac habitasse platea dictumst. Nulla non urna tincidunt, rhoncus sapien cursus, mattis magna. Quisque auctor ultrices urna sed lobortis. Vivamus at arcu at nisi commodo consectetur id id libero. Suspendisse eget mauris urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+    </main>
+    <!-- End #main -->
 
-      Praesent sodales maximus lectus sit amet commodo. Donec augue enim, consequat eu facilisis vel, semper et est. Mauris feugiat sapien a ullamcorper congue. Integer eu suscipit enim. Suspendisse id ante aliquet, aliquet ex vitae, vulputate massa. Donec quam odio, fringilla in mi et, finibus commodo neque. Sed vitae tempor tortor, vitae aliquet massa. Integer accumsan rutrum risus in condimentum. Nullam id neque quis risus facilisis facilisis. In blandit ultricies venenatis.
-      
-      Pellentesque consectetur rutrum tortor, ac tristique velit maximus nec. Nulla non risus purus. Vivamus nec nunc sed nulla porta dignissim. Curabitur sit amet mauris ac elit tempus varius eu in dolor. Morbi mattis orci eu dolor hendrerit consequat. Sed gravida a augue nec ullamcorper. Nam efficitur dapibus arcu eget gravida. In nec feugiat velit. Sed nec maximus ipsum.
-      
-      Ut suscipit vulputate laoreet. Sed porta nibh eu metus convallis, a facilisis neque ornare. Quisque sed dignissim eros. Phasellus auctor interdum dignissim. Mauris eu ipsum turpis. Aenean cursus augue ut ex malesuada finibus. Ut id velit orci.
-      
-      Donec tincidunt eros at nulla venenatis vulputate. Morbi tempus sapien fermentum massa luctus consequat. Nam accumsan arcu ut libero ornare, ut hendrerit quam dapibus. Duis elit nisl, faucibus non nunc at, sodales maximus est. Vestibulum at blandit metus, vel luctus arcu. Quisque rutrum gravida diam. Integer vulputate at mauris sit amet dapibus. Vivamus imperdiet, purus at porttitor bibendum, elit mi auctor est, non dignissim sapien sem sit amet diam. In eget turpis in leo sodales laoreet at vel ipsum. Nunc aliquet hendrerit orci, et dapibus massa egestas ac.
-    </div>
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong></strong>. Todos los derechos reservados
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong></strong>. Todos los derechos reservados
+        </div>
       </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer>
+    <!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

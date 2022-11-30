@@ -11,6 +11,10 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-image: url('/assets/img/fondo1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 a {
@@ -72,6 +76,7 @@ h6 {
   background: white;
   transition: all 0.5s;
   z-index: 997;
+ 
 
 }
 
@@ -574,9 +579,10 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 18px 0;
-  background: #f8f9fa;
+  background: rgb(231, 231, 231);
   min-height: 40px;
-  margin-top: 80px;
+  margin-top: 70px;
+ 
 }
 
 .breadcrumbs h2 {
@@ -2139,4 +2145,19 @@ section {
   padding-top: 40px;
   padding-bottom: 40px;
 
+}
+
+.imagen{
+  text-align: center;
+  padding: 3%;
+
+}
+.imagen img{
+  width: 400px;
+}
+
+.carrusel{
+  width: 70%;
+ text-align: center;
+ margin: 0 auto;
 }
