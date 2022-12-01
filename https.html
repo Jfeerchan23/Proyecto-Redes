@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Proyecto Redes</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Sailor - v4.9.1
+  * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo me-auto">
+          <a href="index.html"><img src="assets/img/UADY_logo.svg" /></a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+              <a href="comunicacion.html">Seguridad en la comunicación</a>
+            </li>
+            <li><a href="web.html" class="active">Seguridad en la Web</a></li>
+            <li><a href="socket.html">Aplicaciones con sockets</a></li>
+            <li><a href="cosas.html">Internet de las Cosas</a></li>
+
+            <li><a href="creditos.html">Créditos</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+      <!-- ======= Breadcrumbs ======= -->
+      <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Protocolo Seguro de Transferencia de Hiper-Texto (HTTPS)</h2>
+          </div>
+        </div>
+      </section>
+      <!-- End Breadcrumbs -->
+      <div class="contenedor">
+        <h3>¿Qué es el HTTPS?</h3>
+        <p>
+          HTTPS (Protocolo Seguro de Transferencia de Hiper-Texto) es un
+          protocolo que permite establecer una conexión segura entre el servidor
+          y el cliente, que no puede ser interceptada por personas no
+          autorizadas. En resumidas cuentas, es la versión segura de el http
+          (Hyper Text Transfer Protocol).
+        </p>
+        <div class="imagen">
+          <img src="./assets/img/web/https.gif" />
+        </div>
+        <h3>¿Cómo funciona?</h4>
+
+        <p>
+          Una conexión HTTP estándar en Internet puede ser fácilmente
+          secuestrada por partes no autorizadas. El propósito de una conexión
+          HTTPS es evitar esto: encriptar los datos para asegurar una
+          transmisión de datos segura. La transmisión está encriptada y el
+          servidor autenticado.
+        </p>
+        <div class="imagen">
+          <img src="./assets/img/web/proteger.gif" />
+        </div>
+
+        <h3>Antecedentes y objetivos</h4>
+        <p>
+          El propósito de una conexión HTTPS es proteger los datos que se
+          transmiten. Una conexión HTTP puede ser fácilmente interceptada,
+          permitiendo ataques específicos a individuos. Los datos introducidos
+          por un usuario en la ventana de su navegador son a menudo personales
+          (información de la cuenta, correo electrónico, información de la
+          tarjeta de crédito, etc.) y deben protegerse de dicho acceso. Otro
+          problema es la suplantación de identidad (phishing), mediante la cual
+          los datos introducidos por un usuario se envían a personas no
+          autorizadas que utilizan sitios web falsos. El objetivo de HTTPS es
+          proporcionar a los usuarios de Internet privacidad, seguridad y
+          protección de datos.
+        </p>
+        <div class="imagen">
+          <img class="infografia" src="./assets/img/web/http y https.png" />
+        </div>
+
+        <p>
+          La seguridad de sitios web eficaz requiere de esfuerzos de diseño a lo
+          largo de la totalidad del sitio web: en tu aplicación web, en la
+          configuración del servidor web, en tus políticas para crear y renovar
+          contraseñas, y en el código del lado cliente. Al mismo tiempo que todo
+          esto suena muy inquietante, la buena noticia es que si estás usando un
+          framework web de lado servidor, es casi seguro que habilitará por
+          defecto mecanismos de defensa robustos y bien pensados contra gran
+          cantidad de los ataques más comunes. Otros ataques pueden mitigarse
+          por medio de la configuración de tu servidor web, por ejemplo
+          habilitando HTTPS. Finalmente, hay herramientas de escaneado de
+          vulnerabilidades disponibles públicamente que pueden ayudarte a
+          averiguar si has cometido algún error obvio.
+        </p>
+  
+        <h3>Uso y relevancia</h4>
+        <div class="imagen">
+          <img src="./assets/img/web/tarjeta.gif" />
+        </div>
+        <p>
+          HTTPS se utiliza para todos los sitios web en los que un usuario
+          introduce datos. Un campo de aplicación importante es la banca online.
+          En cualquier lugar donde se utilice una cuenta protegida por
+          contraseña, sería sensato tener una conexión HTTPS. Esto incluye el
+          acceso a redes sociales, o cuentas de correo electrónico y de compras,
+          en las que de otro modo se podría causar un gran daño personal con la
+          adquisición ilegal de datos personales. La información personal
+          también puede ser enviada sin una cuenta. Si, por ejemplo, un vuelo o
+          unas vacaciones enteras se reservan en línea, entonces los datos
+          aplicables deben ser comunicados a los proveedores de una manera
+          segura. 
+          </p>
+          <div class="imagen">
+            <img src="./assets/img/web/ejemplo.gif" />
+          </div>
+          <p>
+          En su propio interés, cualquier usuario de Internet debe
+          prestar atención a una conexión segura en el lugar correcto y así
+          proteger su privacidad. Si existe una conexión HTTPS se puede ver
+          fácilmente en la barra de direcciones. Mostrará "https" al principio e
+          incluso se resalta en muchos casos. También se muestra un pequeño
+          icono de candado.
+        </p>
+      </div>
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong></strong>. Todos los derechos reservados
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

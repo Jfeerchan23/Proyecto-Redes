@@ -2156,8 +2156,21 @@ section {
   width: 400px;
 }
 
+.imagen .infografia{
+  width: 100%;
+}
+
 .carrusel{
   width: 70%;
  text-align: center;
  margin: 0 auto;
+}
+
+.saberMas{
+  text-align: center;
+  padding: 3%;
+  color: #d9232d;
+}
+.saberMas img{
+  width: 600px;
 }
