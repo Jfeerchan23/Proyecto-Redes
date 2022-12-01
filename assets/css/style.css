@@ -2152,8 +2152,8 @@ section {
   padding: 3%;
 
 }
-.imagen img{
-  width: 400px;
+.imagen .foto{
+  width: 50%;
 }
 
 .imagen .infografia{
