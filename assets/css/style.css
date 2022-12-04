@@ -2150,7 +2150,6 @@ section {
 .imagen{
   text-align: center;
   padding: 3%;
-
 }
 .imagen .foto{
   width: 50%;
@@ -2170,6 +2169,7 @@ section {
   text-align: center;
   padding: 3%;
   color: #d9232d;
+  
 }
 .saberMas img{
   width: 600px;
