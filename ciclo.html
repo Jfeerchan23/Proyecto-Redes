@@ -76,35 +76,28 @@
     </section><!-- End Breadcrumbs -->
 
     <div class="contenedor">
-       <p>En esta sección hablaremos ende la aplicación de sockets en la programación de aplicaciones, para esto primero 
-        te pondremos un video para que vayamos entrando en contexto sobre el tema.</p> 
+        <h3>Cliclo de vida</h3>
+       <p>Los sockets tienen un ciclo de vida dependiendo si son sockets de servidor, que esperan a un cliente para establecer una comunicación,
+         o socket cliente que busca a un socket de servidor para establecer la comunicación.</p> 
       <div class="imagen">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZEitds5Nnx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <img src="assets/img/cliente_servidor.jpg" alt="">
       </div>
-      <p>Como pudimos ver en el video los sockets son canales de comunicación que permiten que procesos no relacionados intercambien datos 
-        localmente y entre redes. Un único socket es un punto final de un canal de comunicación bidireccional. Los sockets se pueden dividir
-        en 2 categorías.</p>
+      <p>El lenguaje de programación JAVA incluye la biblioteca Java.net que proporciona tanto los sockets TCP como UDP:</p>
+      <div class="imagen">
+        <img class="foto" src="assets/img/java-logo-png.png" alt="">
+      </div>
       <br>
-      <h3>Sockets TCP y sockets UDP</h3>
-      <div class="imagen">
-        <img class="" src="assets/img/Sockets.1.jpg" alt="" width="560" height="315">
-      </div>
-      <p>Los sockets TCP tambien conocidos como sockets stream, son sockets orientados a la conexión y proporcionan una conexión fiable y 
-        ordenada, sin emabrgo con estos sockets no se pueden realizar difusiones. Este socket establece un conducto de comunicación punto a 
-        punto entre dos computadoras, es decir, cuando se requiere la transmisión de un flujo de datos entre dos equipos, el protocolo TCP 
-        establece un conducto exclusivo entre dichos equipos por el cual los datos serán transmitidos y este perdurará hasta que la transmisión 
-        haya finalizado, gracias a esto TCP garantiza que los datos enviados de un extremo de la conexión lleguen al otro extremo y en el mismo o
-        rden en que fueron enviados. Las características que posee TCP hacen que el protocolo sea conocido como un protocolo orientado a conexión.</p>
-        <div class="imagen">
-          <img class="foto" src="assets/img/ib51wl4hi40spyc89bq8.jpg" alt="">
-        </div>
-      <p>Los Socket UDP son sockets no orientados a la conexión no es orientado a la conexión debido a que la forma de trasmitir los datos no 
-        garantiza en primera instancia su llegada al destino, e incluso si este llegara al destino final, tampoco garantiza la integridad de los 
-        datos. UPD hace la transmisión de los datos sin establecer un conducto de comunicación exclusiva como lo hace TCP, además utiliza datagramas, 
-        los cuales contienen una porción de la información y que son enviados a la red en espera de ser capturados por el equipo destino. Cuando el 
-        destino captura los datagramas debe reconstruir la información, para esto debe ordenar la información que recibe ya que la información 
-        transmitida no viene con un orden específico, además se  debe tener conciencia de que no toda la información va a llegar. El funcionamiento 
-        del protocolo UDP se puede comparar con el servicio postal.</p>
+      <h3>Clases para los sockets TCP</h3>
+      <p>-Socket- Esta clase implementa sockets del cliente. Un socket es uno de los extremos en la comunicación entre dos máquinas.</p>
+      <p>-ServerSocket- Esta clase implementa sockets del servidor. Un socket del servidor espera a que una solicitud provenga de la red; lleva a cabo 
+        determinadas operaciones basadas en la solicitud recibida; y entonces, posiblemente, retorna un resultado al solicitante.</p>
+        <br>
+      <h3>Clases para los sockets UDP</h3>
+      <p>-DatagramPacket- Esta clase representa un paquete datagrama. Los paquetes datagramas son usados para implementar el servicio de entrega 
+        de paquetes sin conexión. Cada mensaje es enrutado desde una máquina a otra con base en la información contenida dentro del paquete, 
+        únicamente. Cuando se envían múltiples paquetes de una máquina a otra, estos pueden seguir diferentes rutas, y pueden llegar en cualquier 
+        orden. La entrega de paquetes no está garantizada.</p>
+      <p>-DatagramSocket- Esta clase representa un socket para enviar y recibir paquetes datagrama.</p>
     
 
       
@@ -114,8 +107,8 @@
 
       <ul class="navbar" style="list-style: none">
         <li>
-          <a href="ciclo.html"
-            >Ciclo de vida de los sockets</a
+          <a href="socket.html"
+            >Aplicaciones con los Sockets</a
           >
         </li>
         <li><a href="interfaz.html">Interfaz de Sockets</a></li>
