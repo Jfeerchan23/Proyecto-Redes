@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Proyecto Redes</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Sailor - v4.9.1
+  * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo me-auto">
+          <a href="index.html"><img src="assets/img/UADY_logo.svg" /></a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+              <a href="comunicacion.html">Seguridad en la comunicación</a>
+            </li>
+            <li><a href="web.html" class="active">Seguridad en la Web</a></li>
+            <li><a href="socket.html">Aplicaciones con sockets</a></li>
+            <li><a href="cosas.html">Internet de las Cosas</a></li>
+
+            <li><a href="creditos.html">Créditos</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+      <!-- ======= Breadcrumbs ======= -->
+      <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Las tres áreas de la seguridad</h2>
+          </div>
+        </div>
+      </section>
+      <!-- End Breadcrumbs -->
+      <div class="contenedor">
+        <div class="imagen">
+          <img class="infografia" src="./assets/img/comunicaciones/seguridad.gif" />
+        </div>
+        <p>
+          Actualmente, cuando las empresas disponen ya de sus propias redes internas a las que dan acceso a usuarios desde el exterior, los problemas de seguridad se plantean en tres áreas principales:
+          <ol>
+        <li><b>La seguridad de perímetro:</b> protección frente ataques del exterior generalmente basada en <b>cortafuegos (firewalls).</b></li>
+        <li><b>La seguridad en el canal:</b> donde hay que proteger los datos frente a escuchas mediante criptografía.</li>
+        <li><b>La seguridad de acceso:</b> donde se contemplan tres aspectos, la <b>identificación</b>
+        del usuario, la <b>autorización</b> del acceso y la <b>auditoria</b> de las operaciones
+        realizadas por el usuario.</li>
+        </ol>
+        </p>
+        <div class="imagen">
+          <img class="infografia" src="./assets/img/comunicaciones/img13.png" />
+        </div>
+        <p>
+          Sin embargo, se olvida a veces la <b>seguridad interna</b>. El problema de seguridad puede aparecer dentro de la propia empresa, en su red interna, provocado bien por empleados de la empresa, o porque la barrera del cortafuegos ha sido insuficiente y el enemigo ya está dentro. En este caso cobran importancia el uso de técnicas como la <b>compartimentalización</b> de la red mediante el uso de conmutadores (switches) y repetidores (hubs) con características de seguridad, los sistemas de <b>monitorización</b> de la red y la <b>seguridad en servidores.</b>
+        </p>
+
+        <h3>Seguridad perimetral</h3>
+        <p>
+          La seguridad perimetral trata del diseño de procedimientos, protocolos y sistemas con la finalidad de proteger las redes privadas de un <b>sistema informático conectado,</b> por ejemplo, entre sedes.
+        </p>
+        <div class="imagen">
+          <img class="infografia" src="./assets/img/comunicaciones/img14.png" />
+        </div>
+        <h3>Elementos para la seguridad perimetral</h3>
+        <p>
+          <ul>
+          <li><b>Firewall (cortafuegos).</b> Es un programa informático que se encarga de controlar los puertos y conexiones, limitando el paso y el flujo de datos según la dirección IP que realice la petición. En caso de encontrarse con una petición de una IP desconocida, el Firewall lo bloqueará en el momento.
+          Para que el firewall funcione de manera correcta, se debe de configurar y especificar las reglas que deseamos que cumpla, como por ejemplo, administrar los accesos de los usuarios a los servicios privados de la red o controlar el número de conexiones que se están produciendo desde un mismo punto y bloquearlas en el caso que superen un determinado límite.</li>
+          <li><b>VPN (Virtual Private Network o Red Privada Virtual).</b> Los VPN permiten la extensión segura de una red local.  Además, el VPN cifra todo el flujo de datos que pasa a través de él, lo que significa que asegura de que dichos datos no sean comprometidos y estén protegidos.</li>
+          <li>IDP (Intrusion Detection Systems o Sistema de Detección de Intrusos).</li> Un IDP es un software cuya función es la de controlar los accesos a una red informática para proteger a los equipos de posibles ataques y abusos. Un IDP, además, realiza funciones de detectar actividades anormales e inusuales en el exterior – interior de un sistema.
+        </ul>
+        </p>
+        <div class="imagen">
+          <video class="infografia" src="./assets/img/comunicaciones/video.mp4" poster="./assets/img/comunicaciones/poster.jpg" controls/>   
+        </div>
+        <h3>
+          Herramientas de seguridad informática: Honeynet
+        </h3>
+       <p>
+        Los Honeynet son un tipo especial de Honeypots de alta interacción que actúan sobre una red entera, diseñada para ser atacada y recobrar así mucha más información sobre posibles atacantes.
+       </p>
+        <div class="imagen">
+          <img class="infografia" src="./assets/img/comunicaciones/img15.jpg" />
+        </div>
+         <h4>
+          Uso de una Honeynet
+        </h4>
+       <p>
+        Se usan equipos reales con sistemas operativos reales . Muchos honeypota tradicionales han sido para engañar o detectar ataques. Normalmente están impuestas por un único sistema que emula otros sistemas, emula servicios conocidos o vulnerabilidades, o crea entornos cerrados. Este tipo de honeypots se usan principalmente para la investigación de nuevas técnicas de ataque y para comprobar el modus-operandi de los intrusos. Una Honeynet es diferente de los honeypots tradicionales, es lo que clasificaríamos como un honeypot para la investigación. Esto no lo hace una mejor solución que los honeypots tradicionales, simplemente tiene un propósito diferente. En vez de darle uso siendo detectado o engañando a los agresores, su uso es recoger información de las amenazas. Las dos principales diferencias de diseño respecto a los honeypots tradicionales son:
+        <ul>
+        <li>No es un sólo sistema sino una red de varios sistemas y aplicaciones las cuales son investigadas y atacadas por los <b>blackhats.</b> Las Honeynets pueden utilizar varios sistemas al mismo tiempo, como <b>Solaris, Linux, Windows NT, router Cisco, conmutadores Alteon,</b> etc. Esto crea un entorno de red que refleja de forma más realista una red productiva. Además, al tener diferentes sistemas con diferentes aplicaciones, como un <b>servidor DNS en Linux</b>, un <b>servidor Web Windows IIS,</b> y un <b>servidor de bases de datos en Solaris,</b> podemos aprender sobre diferentes herramientas y tácticas. Quizás algunos blackhats se centran en sistemas específicos, aplicaciones o vulnerabilidades. Teniendo una variedad de sistemas operativos y aplicaciones, somos capaces de trazar con más exactitud el perfil de las tendencias y rasgos de los blackhat.</li>
+        <li>Todos los sistemas situados dentro de una Honeynet son sistemas comerciales estándar. Estos son sistemas y aplicaciones reales, los mismos que puede encontrar en Internet. Nada es emulado ni se hace nada para que los sistemas sean menos seguros. Los riegos y vulnerabilidades encontradas en una Honeynet son las mismas que existen hoy en muchas organizaciones. Uno simplemente puede tomar un sistema de un entorno comercial y situarlo dentro de una Honeynet.</li>
+      </ul>
+        Estas son dos diferencias de diseño que hacen de la Honeynet principalmente una herramienta para la investigación. Puede ser usada como un honeypot tradicional, detectando actividades no autorizadas, sin embargo una Honeynet requiere bastante más trabajo, riegos y administración. Simplemente no merece la pena hacer todo el esfuerzo de construir y mantener una honeypot sólo para detectar ataques. Tradicionalmente, la información sobre seguridad ha sido puramente defensiva. Cortafuegos, Sistemas de Detección de Intrusiones, cifrado; todos estos mecanismos se usan defensivamente para proteger los recursos de alguien. La estrategia es defender la organización de alguien tan bien como sea posible, detectar posibles fallos en la defensa y entonces reaccionar a esos fallos. El problema de esta situación es puramente defensivo, el enemigo está al ataque. Las Honeynets intentan cambiar esto. El principal propósito de una Honeynet es recoger información sobre las amenazas existentes. Nuevas herramientas pueden ser descubiertas, pueden determinarse patrones de ataque, y los motivos del agresor estudiados. Las Honeynets no son más que una herramienta, y como tal puede ser usada para otros fines. Un ejemplo, las organizaciones pueden utilizar Honeynets para comprobar y desarrollar su capacidad de Respuesta ante Incidentes. Las ventajas que se obtienen analizando estos sistemas comprometidos es que se obtienen la mayoría de las respuestas. Puede tratar el sistema comprometido como un 'reto', donde comprobará sus habilidades para determinar qué pasó utilizando diversas técnicas forenses. Entonces puede comparar estos resultados con los datos capturados dentro de la Honeynet. Ejemplos de esto son los numerosos retos avalados por el <b>Honeynet Project.</b> Las Honeynets son simplemente una herramienta, encuentra su utilidad allá donde usted decida usarlas. Sin embargo, su principal propósito y diseño está basado en la investigación de amenazas.
+       </p>
+        <div class="imagen">
+          <img class="infografia" src="./assets/img/comunicaciones/honeynet.png" />
+        </div>
+        <h4>
+          Cómo funciona
+        </h4>
+       <p>
+        Conceptualmente, las Honeynets son un mecanismo simple. Usted crea una red parecida a una pecera, donde puede ver todo lo que ocurre dentro de ella. Igual que a un pez, puede observar a los hackers interactuar con su entorno virtual. Además igual que en una pecera, puede poner allí casi todo lo que quiera. Esta red controlada se convierte en su Honeynet. Las actividades capturadas le enseñan las herramientas, tácticas y motivos de la comunidad blackhat. Tradicionalmente, el gran problema de los profesionales de la seguridad reside en que la detección y captura de actividad blackhat supone una sobrecarga de información. El reto para muchas organizaciones es determinar de entre una enorme cantidad de información qué es tráfico productivo y qué es actividad maliciosa. Herramientas y técnicas como los Sistemas de Detección de Intrusiones, análisis forenses de las máquinas, o los análisis de los registros del sistema intentan resolver esto mediante una base de datos de marcas conocidas o algoritmos para determinar qué es tráfico de producción y qué es actividad maliciosa. Sin embargo, la sobrecarga de información, la contaminación de los datos, actividades no descubiertas, falsos positivos y falsos negativos puede hacer el análisis y la determinación de las actividades algo extremadamente difícil. Como todos los honeypots, las Honeynets resuelven este problema de la sobrecarga de información a través de la simplicidad. Una Honeynet es una red diseñada para ser comprometida, no para ser usada por tráfico productivo. Así, cualquier tráfico entrando o saliendo de nuestra red es sospechoso por definición. Cualquier conexión iniciada desde fuera de la Honeynet hacia dentro de la red es probablemente algún tipo de sondeo, ataque u otra actividad maliciosa. Cualquier conexión iniciada desde dentro de la Honeynet hacia otra red de fuera indica que un sistema fue comprometido. Un agresor ha iniciado una conexión desde su recién atacada computadora y ahora está saliendo a Internet. Este concepto de ningún tráfico productivo simplifica enormemente la captura de datos y el análisis.
+       </p>
+        <div class="imagen">
+          <img class="infografia" src="./assets/img/comunicaciones/honeynet1.png" />
+        </div>
+      </div>
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong></strong>. Todos los derechos reservados
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
