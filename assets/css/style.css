@@ -2174,3 +2174,28 @@ section {
 .saberMas img{
   width: 600px;
 }
+
+.integrantes{
+  margin: 0 auto;
+  text-align: center;
+  border: 4px solid #000;
+  display: table;
+}
+
+.fotoIntegrante{
+  width: 50%;
+  margin: 2%;
+}
+
+.integrantes th, td {
+  width: 25%;
+  vertical-align: top;
+  border: 4px solid #000;
+  margin: 0 auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.integrantes th{
+  background-color: #D9A76A;
+}
